@@ -12,24 +12,30 @@
 </head>
 
 <body>
+    <div id="loader">
 
-<header>
+<h1>AFFAN WATCHES</h1>
+
+</div>
+
+<header class="header">
 
 <div class="logo">
-AFFAN WATCHES
+⌚ AFFAN LUXURY WATCHES
 </div>
 
 <nav>
 
 <a href="#home">Home</a>
-<a href="#collection">Collection</a>
+<a href="#mens">Men</a>
+<a href="#women">Women</a>
+<a href="#digital">Digital</a>
 <a href="#about">About</a>
 <a href="#contact">Contact</a>
 
 </nav>
 
 </header>
-
 <section id="home" class="hero">
 
 <div class="hero-text">
@@ -37,29 +43,60 @@ AFFAN WATCHES
 <h1>Luxury Watches Collection</h1>
 
 <p>
-Premium Quality Luxury Watches At Best Price.
-Free Shipping Across India.
+
+Premium Watches • Free Shipping • COD Available
+
 </p>
 
-<a href="#collection" class="btn">
-Explore Collection
+<a href="#mens" class="btn">
+
+Shop Now
+
 </a>
 
 </div>
 
 </section>
+<section class="features">
+    <section class="search-section">
 
-<section id="collection">
+<input
+type="text"
+id="searchInput"
+placeholder="🔍 Search your favourite watch..."
+onkeyup="searchWatch()">
 
+</section>
+
+<div class="feature">
+🚚 Free Shipping
+</div>
+
+<div class="feature">
+💵 Cash On Delivery
+</div>
+
+<div class="feature">
+⭐ Premium Quality
+</div>
+
+<div class="feature">
+🎁 Brand Box
+</div>
+
+
+<section id="mens"></section>
 <h2 class="title">
-Our Collection
-</h2>
 
+⌚ Men's Collection
+
+</h2>
 <div class="cards">
 
 <!-- CARTIER -->
 
 <div class="card">
+    <span class="heart">♡</span>
 
 <img src="cartier.JPG.jpg" alt="Cartier Watch">
 
@@ -98,6 +135,7 @@ Our Collection
 <!-- TAG -->
 
 <div class="card">
+    <span class="heart">♡</span>
 
 <img src="tag.JPG.jpg" alt="TAG Heuer Watch">
 
@@ -137,6 +175,7 @@ href="https://wa.me/918866888915?text=Hello%20Shaikh%20Affan,%0A%0AI%20want%20to
 <!-- MONTBLANC -->
 
 <div class="card">
+    <span class="heart">♡</span>
 
 <img src="montblanc.JPG.jpg" alt="Montblanc Watch">
 
@@ -173,8 +212,154 @@ href="https://wa.me/918866888915?text=Hello%20Shaikh%20Affan,%0A%0AI%20want%20to
 </div>
 
 </div>
+<div class="card">
+
+<span class="badge">NEW</span>
+<span class="heart">♡</span>
+
+<img src="patek.JPG.jpeg" alt="Patek Philippe">
+
+<h2>PATEK PHILIPPE</h2>
+
+<ul>
+<li>Premium 7AAA Quality</li>
+<li>Japanese Quartz Movement</li>
+<li>Sapphire Glass</li>
+<li>Date Display</li>
+<li>White Ceramic Strap</li>
+<li>Brand Box Included</li>
+</ul>
+
+<h3>₹3000</h3>
+
+<a href="https://wa.me/918866888915?text=Hello%20Shaikh%20Affan,%20I%20want%20to%20buy%20Patek%20Philippe%20Watch." target="_blank">
+<button class="buy-btn">Order on WhatsApp</button>
+</a>
+
+</div>
+
 
 </section>
+<section id="digital">
+
+<h2 class="title">
+
+⌚ Digital Watches
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<span class="badge">BEST SELLER</span>
+<span class="heart">♡</span>
+
+<img src="casio.JPG.jpeg" alt="Casio">
+
+<h2>CASIO STANDARD</h2>
+
+<ul>
+
+<li>7A Premium</li>
+<li>World Time</li>
+<li>Alarm</li>
+<li>LED Light</li>
+<li>10 Year Battery</li>
+<li>Free Box</li>
+
+</ul>
+
+<h3>₹1500</h3>
+
+<a href="https://wa.me/918866888915?text=Hello%20Shaikh%20Affan,%20I%20want%20to%20buy%20Casio%20Standard." target="_blank">
+
+<button class="buy-btn">
+
+Order on WhatsApp
+
+</button>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+<section id="women">
+
+<h2 class="title">
+
+👑 Women's Collection
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<span class="badge">NEW</span>
+<span class="heart">♡</span>
+
+<img src="mk-gold.JPG.jpeg" id="mkMain">
+
+<div class="colors">
+
+<img src="mk-gold.JPG.jpeg" onclick="changeImage('mk-gold.JPG.jpeg')">
+
+<img src="mk-blue.JPG.jpeg" onclick="changeImage('mk-blue.JPG.jpeg')">
+
+<img src="mk-silver.JPG.jpeg" onclick="changeImage('mk-silver.JPG.jpeg')">
+
+<img src="mk-brown.JPG.jpeg" onclick="changeImage('mk-brown.JPG.jpeg')">
+
+<img src="mk-rosegold.JPG.jpeg" onclick="changeImage('mk-rosegold.JPG.jpeg')">
+
+</div>
+
+<h2>MICHAEL KORS</h2>
+
+<ul>
+
+<li>Japanese Movement</li>
+<li>Crystal Dial</li>
+<li>Premium Stainless Steel</li>
+<li>Brand Box</li>
+<li>Free Shipping</li>
+
+</ul>
+
+<p><b>Available Colours</b></p>
+
+<p>
+
+🟡 Gold &nbsp;
+🌹 Rose Gold &nbsp;
+⚪ Silver &nbsp;
+🔵 Blue &nbsp;
+🤎 Brown
+
+</p>
+
+<h3>₹2650</h3>
+
+<a href="https://wa.me/918866888915?text=Hello%20Shaikh%20Affan,%20I%20want%20to%20buy%20Michael%20Kors%20Watch." target="_blank">
+
+<button class="buy-btn">
+
+Order on WhatsApp
+
+</button>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
 
 <section id="about">
 
@@ -232,20 +417,25 @@ Chat On WhatsApp
 
 <footer>
 
-<h3>
+<h2>AFFAN LUXURY WATCHES</h2>
 
-© 2026 AFFAN WATCHES
+<p>Premium Watches | Free Shipping | COD Available</p>
 
-</h3>
+<div class="social">
 
-<p>
+<a href="https://wa.me/918866888915" target="_blank">💬 WhatsApp</a>
 
-Designed By Shaikh Affan
+<a href="mailto:businessbyaffan30@gmail.com">📧 Gmail</a>
+
+</div>
+
+<p class="copy">
+
+© 2026 AFFAN LUXURY WATCHES
 
 </p>
 
 </footer>
-
 <script src="script.js"></script>
 
 </body>
